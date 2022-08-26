@@ -1,0 +1,23 @@
+.contato__label{
+    margin-left: 1rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.contato__titulo{
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX( calc( 50% - 172px ));
+}
+
+.contato__img-email:hover{
+    transform: scale(110%);
+ 
+}
+
+.contato__error{
+    color: red;
+    font-size: 1rem;
+    margin-left: 1rem;
+}

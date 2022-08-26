@@ -1,0 +1,8 @@
+.hobbies__items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 3rem;
+}
+

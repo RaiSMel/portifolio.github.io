@@ -1,0 +1,47 @@
+.projeto__criptografia{
+    background: url(../../../imgs/projetos/criptografia.png);
+}
+
+.projeto__forca{
+    background: url(../../../imgs/projetos/forca.png);
+}
+
+.projeto__item-imagem{
+    grid-row: 1/5;
+    grid-column: 2/3;
+    border-radius: 5px;
+    width: 600px;
+    height: 430px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 1220px){
+    .projeto__item-imagem{
+        grid-row: 3/4;
+        grid-column: 1/4;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .projeto__item-imagem{
+        width: 250px;
+        height: 175px;
+        align-self: center;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .projeto__item-imagem{
+        width: 200px;
+        height: 125px;
+        justify-self: flex-start;
+    }
+}

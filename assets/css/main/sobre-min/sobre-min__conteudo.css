@@ -1,0 +1,13 @@
+.sobre-min__conteudo{
+    text-align: left;
+    font-size: 1.5rem;
+    opacity: 1;
+    
+}
+
+@media screen and (max-width:767px) {
+.sobre-min__conteudo{
+    font-size: 1.1rem;
+}
+    
+}

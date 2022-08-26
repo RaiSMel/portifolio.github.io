@@ -1,0 +1,17 @@
+.header__nome-icon{
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    width: 355px;
+    border-radius: 5px;
+    background: rgba(204, 204, 204, 0.673);
+}
+
+@media screen and (max-width: 480px) {
+
+    .header__nome-icon{
+        flex-wrap: wrap;
+        width: 230px;
+    }
+    
+}

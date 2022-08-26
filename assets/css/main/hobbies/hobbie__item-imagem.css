@@ -1,0 +1,138 @@
+/* estilização da bola */
+
+.hobbie__bolaVolei {
+    background: url(../../../imgs/hobbies/bolaVolei.png);
+}
+
+.hobbie__bolaVolei:hover {
+    animation: 2s bola infinite alternate;
+    animation-timing-function: cubic-bezier(0.2, 0.3, 0.8, 1);
+}
+
+@keyframes bola {
+    50% {
+        transform: translate(0px, 40px) rotate(37deg);
+    }
+
+    to {
+        transform: translate(0px, 0px) rotate(90deg);
+
+    }
+}
+
+/* fim da estilização da bola  */
+
+/* estilização bicicleta */
+
+.hobbie__bicicleta {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+}
+
+.rodas {
+    background: url(../../../imgs/hobbies/rodas.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 46px;
+}
+
+.roda1 {
+    left: 88px;
+
+}
+
+.roda2 {
+    left: 4px;
+}
+
+.hobbie__bicicleta:hover .quadro {
+    animation: andando 2s infinite alternate;
+}
+
+.hobbie__bicicleta:hover .rodas {
+    animation: rodando 2s infinite alternate;
+}
+
+.quadro {
+    background: url(../../../imgs/hobbies/bicicleta.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+@keyframes rodando {
+    50% {
+        transform: translate(-5px, 0) rotate(-10000deg);
+    }
+
+    to {
+        transform: translate(3px, 0) rotate(10000deg);
+
+    }
+}
+
+@keyframes andando {
+    50% {
+        transform: translate(-5px, 0);
+    }
+
+    to {
+        transform: translate(3px);
+    }
+}
+
+
+/* fim da estilização da bicicleta */
+
+/* estilização do em hiragana */
+
+.hobbie__japones-representacao {
+    background: url(../../../imgs/hobbies/japones.png);
+}
+
+/* fim estilização do em hiragana */
+
+/* estilização do anime */
+
+.hobbie__anime {
+    background: url(../../../imgs/hobbies/animes.gif);
+}
+
+/* fim estilização do anime */
+
+/* estilização de cozinhar */
+
+.hobbie__cozinhar {
+    background: url(../../../imgs/hobbies/cozinhar.gif);
+}
+
+/* fim estilização de cozinhar */
+
+/* estilização de comer */
+
+.hobbie__comer {
+    background: url(../../../imgs/hobbies/comer.gif);
+}
+
+/* fim estilização de comer */
+
+
+.hobbie_item-imagem {
+    height: 100px;
+    width: 100px;
+    margin: 1rem auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

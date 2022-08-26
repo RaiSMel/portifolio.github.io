@@ -1,0 +1,16 @@
+.skills__titulo-container{
+    margin-top: 1rem;
+    padding: 4px 2rem;
+    background: rgba(206, 206, 206, 0.781);
+    border-radius: 5px;
+}
+.skills__subtitulo-container{
+    margin-top: 1rem;
+    padding: 4px 2rem;
+
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+    background: rgb(255, 238, 253);
+}
+
+

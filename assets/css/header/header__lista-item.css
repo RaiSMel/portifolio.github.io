@@ -1,0 +1,16 @@
+.header__lista-item{
+    margin: 0 .5rem 0;
+    position: relative;
+}
+
+.header__lista-item::before{
+    content: "|";
+    position: absolute;
+    right: 100%;
+    top: 20%
+}
+
+.header__lista-item:hover{
+    filter: drop-shadow(10px 0 10px #f1f1f1);
+    transform: scale(103%);
+}

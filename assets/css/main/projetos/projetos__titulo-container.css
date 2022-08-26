@@ -1,0 +1,8 @@
+.projetos__titutlo-container{
+    width: 200px;
+    padding: 4px 2rem;
+    background: rgba(206, 206, 206, 0.281);
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}

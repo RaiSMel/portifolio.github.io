@@ -1,0 +1,69 @@
+.hobbie__item{
+    margin-bottom: 1rem;
+    background: rgba(253, 243, 221, 0.905);
+    width: calc( 16% - 1.5rem ) ;
+    height: 180px;
+    border-radius: 5px;
+    border: 1px solid var(--var__preto);
+    filter: drop-shadow(1rem 1rem .5rem #000000);
+    margin: 1rem 0 1rem 1.5rem;
+}
+
+.hobbie__item:hover { 
+
+    background: gray;
+}
+
+@media screen and (max-width: 1220px){
+
+.hobbie__item{
+    width: calc( 25% - 2% );
+    margin-left: 2% ;
+}
+
+.hobbie__item:nth-child(4n + 1){
+    margin-left: 0;
+}
+
+}
+
+@media screen and (max-width: 767px){
+
+.hobbie__item{
+    width: calc( 33% - 2% );
+    margin-left: 2% ;
+}
+
+.hobbie__item:nth-child(4n + 1){
+    margin-left: 2%;
+}
+
+.hobbie__item:nth-child(3n + 1){
+    margin-left: 0;
+}
+
+}
+
+
+
+@media screen and (max-width: 600px){
+    .hobbie__item{
+        width: calc( 50% - 2% );
+    }
+    
+    .hobbie__item:nth-child(3n + 1){
+        margin-left: 2%;
+    }
+    
+    .hobbie__item:nth-child(2n + 1){
+        margin-left: 0;
+    }
+    
+    }
+@media screen and (max-width: 370px){
+    .hobbie__item:nth-child(1n){
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    }

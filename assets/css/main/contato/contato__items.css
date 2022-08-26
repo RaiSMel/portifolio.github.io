@@ -1,0 +1,19 @@
+.contato__itens{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    background: white;
+    position: relative;
+    padding: 7rem 0;
+    height: 100%;
+    align-items: center;
+    background: linear-gradient(white , #ccc 20% 90%, white);
+    border-left:1px solid black ;
+    border-right:1px solid black ;
+}
+
+@media screen and (max-width: 1220px){
+    .contato__itens{
+        justify-content: center;
+    }
+}

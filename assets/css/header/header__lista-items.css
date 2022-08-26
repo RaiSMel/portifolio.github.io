@@ -1,0 +1,9 @@
+.header__lista-itens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: .3rem;
+}
+
+   

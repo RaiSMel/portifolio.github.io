@@ -1,0 +1,43 @@
+/* HardSkills */
+
+.skill__php{
+    background: url(../../../imgs/skills/php.png);
+}
+
+.skill__javascript{
+    background: url(../../../imgs/skills/javascript.png);
+}
+.skill__html{
+    background: url(../../../imgs/skills/html.png);
+}
+.skill__figma{
+    background: url(../../../imgs/skills/figma.png);
+}
+.skill__css{
+    background: url(../../../imgs/skills/css.png);
+}
+
+
+
+/* SoftSkills */
+
+.skill__comunicacao{
+    background: url(../../../imgs/skills/comunicacao.png);
+}
+
+.skill__trabalhoEmEquipe{
+    background: url(../../../imgs/skills/trabalhoEmEquipe.png);
+}
+.skill__focado{
+    background: url(../../../imgs/skills/focado.png);
+}
+
+/* Estilização dos itens */
+.skill__item-imagem{
+    height: 100px;
+    width: 100px;
+    margin: 1rem auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

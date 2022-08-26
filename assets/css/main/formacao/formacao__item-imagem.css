@@ -1,0 +1,32 @@
+
+.formacao__albert-eintein{
+    background: url(../../../imgs/formacao/AlbertEinstein.png);
+}
+
+.formacao__alura{
+    background: url(../../../imgs/formacao/alura.png);
+}
+
+.formacao__duolingo{
+    background: url(../../../imgs/formacao/duolingo.png);
+}
+
+
+
+.formacao__item-imagem{
+    width: 180px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 900px){
+    
+    .formacao__item-imagem{
+        width: 160px;
+        height: 110px;
+    }
+    
+}

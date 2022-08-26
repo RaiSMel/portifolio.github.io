@@ -1,0 +1,14 @@
+.link__redes-sociais{
+    font-weight: 600;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
+.link__redes-sociais:hover{
+    filter: drop-shadow(0px 0px 2px var(--var__vermelho));
+    transform: scale(110%);
+}
+    
+   

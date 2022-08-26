@@ -1,0 +1,16 @@
+.principal__img-desenvolvedor{
+    background-image: url(../../../imgs/principalDesenvolvedor.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1220px) {
+.principal__img-desenvolvedor{
+    width: 200px;
+    height: 200px;
+}
+}

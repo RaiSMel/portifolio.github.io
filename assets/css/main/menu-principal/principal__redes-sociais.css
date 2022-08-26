@@ -1,0 +1,23 @@
+.principal__redes-sociais{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.principal__redes-sociais:first-child{
+    margin: 0;
+
+}
+
+.github{
+    background: url(../../../imgs/github.png);
+}
+
+.linkedin {
+    background: url(../../../imgs/linkedin.png);
+}
+
+.instagram{
+    background: url(../../../imgs/instagram.png);
+}
+

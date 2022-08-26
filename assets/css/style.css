@@ -1,0 +1,11 @@
+:root{
+    --var__branco: #ffffff ; 
+    --var__preto: #000000;
+    --var__preto-fraco: rgb(27, 27, 27);
+    --var__vermelho: #F01E23;
+    --var__verde: #00701F;
+}
+
+*{
+    font-family: oswald, cursive;
+}

@@ -1,0 +1,11 @@
+.principal__titulo{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1220px) {
+
+.principal__titulo{
+    font-size: 1.5rem;
+}
+
+}

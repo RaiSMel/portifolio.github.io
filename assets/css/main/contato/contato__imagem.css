@@ -1,0 +1,32 @@
+.contato__imagem{
+    background: url(../../../imgs/contato.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 320px;
+    height: 300px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.contato__img-email:hover .contato__imagem:after{
+    background: black;
+    text-align: center;
+    content: "Enviar e-mail diretamente";
+    color: white;
+    width: 220px;
+    position: absolute;
+    padding: 1rem 0;
+    left: 50%;
+    top: 50%;
+    transform:  translateX(calc( 50% - 220px)) translateY(calc( 50% - 50px)) ;
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .contato__imagem{
+        width: 200px;
+        height: 180px;
+        margin-left: 0;
+    }
+}

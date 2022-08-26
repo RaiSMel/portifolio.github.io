@@ -1,0 +1,8 @@
+.skills{
+    padding: 3rem 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background: url(../../../imgs/fundo.jpg) no-repeat center;
+    background-size: cover;
+}

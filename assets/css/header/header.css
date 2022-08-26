@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem 1.4rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../../imgs/fundo.jpg) no-repeat;
+    background-size: cover;
+    gap: 0;
+}
+
+@media screen and (max-width: 1220px){
+.header{
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem 2rem 1.4rem 2rem;
+}
+}
+
+@media screen and (max-width: 1220px){
+.header{
+    padding: 1rem 0;
+}
+}
+
+
+
