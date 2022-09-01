@@ -291,19 +291,26 @@
                 <h2 class="titulos contato__titulo">contato</h2>
                 <a href="mailto:rai.dasilva.mello@hotmail.com" class="contato__img-email"><div class="contato__imagem"></div></a>
 
-                <form class="contato__form" method="get" action="mailto:rai.dasilva.mello@hotmail.com" target="_blank">
-                    <label class="contato__label" for="nome">Nome:</label><input id="nome" name="nome"
+                <form class="contato__form" method="post" action="https://api.staticforms.xyz/submit" target="_blank">
+                    <input type="hidden" name="accessKey" value="94fa6e0f-8504-4009-8b8c-081ca55042ac"> 
+                    <label class="contato__label" for="nome">Nome:</label>
+                    <input id="nome" name="name"
                         class="contato__inputs" type="text" maxlength="50" placeholder="Nome" required><p class="contato__error" contato__error-nome></p>
-                    <label class="contato__label" for="email">E-mail:</label><input id="email" name="email"
+                    <label class="contato__label" for="email">E-mail:</label>
+                    <input id="email" name="email"
                         class="contato__inputs" type="email" placeholder="E-mail" required><p class="contato__error" contato__error-email></p>
-                    <label class="contato__label" for="assunto">assunto:</label><input id="assunto" name="assunto"
+                    <label class="contato__label" for="assunto">assunto:</label>
+                    <input id="assunto" name="subject"
                         class="contato__inputs" maxlength="50" type="text" placeholder="Assunto" required><p class="contato__error" contato__error-assunto></p>
-                    <label class="contato__label" for="mensagem">Mensagem: </label><textarea id="mensagem"
-                        name="mensagem" class="contato__mensagem" placeholder="Mensagem" maxlength="300" required></textarea><p class="contato__error" contato__error-mensagem></p>
-                    <button class="contato__botao" contato__enviar disabled>Enviar</button>
+                    <label class="contato__label" for="mensagem">Mensagem: </label>
+                    <textarea id="mensagem"
+                        name="message" class="contato__mensagem" placeholder="Mensagem" maxlength="300" required></textarea><p class="contato__error" contato__error-mensagem></p>
+                    <input type="hidden" name="redirectTo" value="https://raismel.github.io/portifolio.github.io/">
+                    <input class="contato__botao" type="submit" contato__enviar disabled>Enviar</button>
                     </form>
             </div>
-            
+           
+
         </section>
 
     </main>
