@@ -1,6 +1,6 @@
 # Portifolio
 
-<p>Criei esse portifólio no intuito de divulgação pessoal, contando sobre a minha história e minha expectativa profissional! </p>
+<p>Criei esse portifólio no intuito de divulgação pessoal, contar sobre a minha história e minha expectativa profissional! </p>
 <br>
 
 # Imagens do site  
